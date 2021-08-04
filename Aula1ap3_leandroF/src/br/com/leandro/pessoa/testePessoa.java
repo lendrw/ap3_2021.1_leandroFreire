@@ -2,13 +2,13 @@ package br.com.leandro.pessoa;
 
 import java.util.ArrayList;
 
-public class testePessoa {
+public class TestePessoa {
 	
 	//1237017001
 
 	public static void main(String[] args) {
 		pessoa xico = new pessoa();
-		// objeto pessoa na vari·vel xico recebe espaÁo na memoria
+		// objeto pessoa na vari√°vel xico recebe espa√ßo na memoria
 		xico.setNome("Xico");
 		xico.setAltura(1.8f);
 		xico.setIdade(18);
