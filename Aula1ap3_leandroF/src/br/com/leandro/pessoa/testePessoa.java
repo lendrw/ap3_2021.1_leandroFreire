@@ -7,13 +7,13 @@ public class TestePessoa {
 	//1237017001
 
 	public static void main(String[] args) {
-		pessoa xico = new pessoa();
+		Pessoa xico = new Pessoa();
 		// objeto pessoa na variável xico recebe espaço na memoria
 		xico.setNome("Xico");
 		xico.setAltura(1.8f);
 		xico.setIdade(18);
 
-		pessoa lucas = new pessoa();
+		Pessoa lucas = new Pessoa();
 		lucas.setNome("Lucas");
 		lucas.setAltura(1.7f);
 		lucas.setIdade(28);
