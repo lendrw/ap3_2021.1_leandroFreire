@@ -23,7 +23,7 @@ public class TestePessoa {
 		
 		ArrayList lista = new ArrayList();
 		for (int i = 0; i < 9999; i++) {
-			pessoa p = new pessoa();
+			Pessoa p = new Pessoa();
 			p.setNome("Nome:"+i);
 			lista.add(p);
 			
