@@ -2,7 +2,7 @@ package br.com.leandro.pessoa;
 
 import java.util.ArrayList;
 
-public class TestePessoa {
+public class TestePessoa { //Isso nao compila...
 	
 	//1237017001
 
