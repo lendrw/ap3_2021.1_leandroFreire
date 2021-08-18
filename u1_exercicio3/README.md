@@ -49,12 +49,20 @@ Escreva uma classe em Java que tem como atributo o nome e a idade de uma pessoa.
 ---
 
 ## Questão 5 (1,0 ponto):
-Implemente uma classe Carro, com os seguintes atributos na classe: Modelo, Cor, Ano, Marca, Chassi, Velocidade máxima, Velocidade atual, Nr de portas, tem teto solar?, Nr Marchas, tem cambio automatico?, Volume de combustível.
-Implemente o método acelera que aumenta a velocidade de 1 em 1 km/h
-Implemente o método freia, que para o carro – Velocidade = 0 km/h
-Implemete o método troca marcha
-Implemente o método reduz a marcha
-A marcha ré nao pode ser engatada se o a velocidade for superior a 0 km/h
-O atributo Marca de um carro deve ser uma classe separada, com nome, nrDeModelos, ano de lançamento e código identificador.
-Implemente um método que calcule a autonomia de viagem do veículo com base no consumo médio passado como parâmetro
+Implemente uma classe Carro, com os seguintes atributos na classe: modelo, cor, ano, marca, chassi, velocidade máxima, velocidade atual, num de portas, tem teto solar?, num marchas, tem câmbio automático?, volume de combustível que cabem no tanque.
+
+- Implemente o método acelera, que aumenta a velocidade de 1 em 1 km/h. Ou aumenta a velocidade conforme parâmetro
+
+- Implemente o método freia, que para o carro (velocidade = 0 km/h)
+
+- Implemete o método troca marcha
+
+- Implemente o método reduz a marcha
+
+- A marcha ré nao pode ser engatada se o a velocidade for superior a 0 km/h
+
+- O atributo Marca de um carro deve ser uma classe separada, com nome, nrDeModelos, ano de lançamento e código identificador
+
+- Implemente um método que calcule a autonomia de viagem do veículo com base no consumo médio passado como parâmetro
+
 Faça uma outra classe com o método *main()*, na qual o usuário deverá preencher os dados de três Carros distintos. Exiba os dados dos três Carros usando o método *toString()*.
